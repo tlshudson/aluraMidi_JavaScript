@@ -3,4 +3,5 @@ function reproduzSomPom (){
     
 }
 
-document.querySelector('.tecla_pom').onclick=reproduzSomPom;
+const listaDeTeclas = document.querySelectorAll('.tecla');
+listaDeTeclas[0].onclick = reproduzSomPom;
